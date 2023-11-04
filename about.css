@@ -1,0 +1,14 @@
+.headeritems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+header{
+    border-bottom: 2px #EEEEEE solid;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}

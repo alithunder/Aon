@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+}
+.headeritems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 280px;
+  padding-left: 280px;
+}
+header {
+  border-bottom: 2px #eeeeee solid;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+width
+.mainhome {
+  margin-top: 80px;
+}
+.mainabout {
+  margin-top: 40px;
+}
+.input {
+  border: 2px #eeeeee solid;
+  width: 20em;
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 10px;
+}
+.inputdiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.buttonadd {
+  width: 150px;
+  margin-left: 10px;
+  background-color: #0000ff;
+  color: white;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+}
+.buttonadd:hover{
+  cursor: pointer
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+.tasks {
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 65px;
+  border-radius: 10px;
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.buttonx {
+  font-weight: 100;
+  font-size: 1.5em;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border: #ff0000 solid 1px;
+  color: #ff0000;
+  margin-right: 10px;
+}
+.About {
+  text-decoration: none;
+  margin-left: 5px;
+  color: black;
+}
+.img {
+  width: 409px;
+  height: 252px;
+  margin-top: 50px;
+}
+.mainitems {
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 280px;
+  padding-left: 280px;
+}
+.img {
+  width: 458px;
+  height: 252px;
+}
+.provided {
+  text-align: center;
+  margin-top: 2em;
+}
+.buttonmobile{
+  user-select: none;
+  width: 0px;
+  height: 0px;
+  color: white;
+}
+@media screen and (max-width: 430px) {
+  header{
+    width: 4px;
+  }
+  .container {
+    width: 430px;
+    margin: auto;
+  }
+  .headeritems {
+    padding-right: 120px;
+    padding-left: 10px;
+  }
+  .mainitems {
+    padding-right: 120px;
+    padding-left: 10px;
+  }
+  .container {
+    width: 400px;
+    margin: auto;
+  }
+  .buttonadd {
+    width: 0;
+    height: 0;
+  }
+  .buttonmobile {
+    height: 50px;
+    width: 100%;
+    background-color: #0000ff;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 70px;
+  }
+  .buttonx {
+    font-size: 0.8em;
+    border-radius: 6px;
+  }
+  }
